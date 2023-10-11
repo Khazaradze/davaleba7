@@ -89,3 +89,135 @@ backdrop-filter: blur(10px);
 padding: 56px 120px 55px 120px;
 }
 
+.section2{
+    padding: 120px 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 81px;
+
+}
+
+.section2_h1{
+    color: #E08C11;
+font-family: Work Sans;
+font-size: 75px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    
+    
+}
+
+.boxes{
+    width: 390px;
+    padding: 30px 41px;
+    border-radius: 40px;
+    border: 3px solid #DCB47A;
+
+}
+
+.box_p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.8px;
+    
+}
+
+.box_p2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #E08C11;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box_img{
+    width: 100%;
+    height: 225px;
+}
+
+.fa-cart-shopping{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #DCB47A;
+
+
+}
+
+footer{
+    display: flex;
+width: 1920px;
+padding: 60px 629px 60px 630px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 49px;
+background: #262626;
+}
+
+.footer_h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 116.667% */
+}
+
+.Footer_span{
+    color: #DCB47A;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+
+
+}
+
+.footer_p{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    width: 200px;
+    height: 64px;
+    border-radius: 60px;
+    background-color: #DCB47A;
+}
+
